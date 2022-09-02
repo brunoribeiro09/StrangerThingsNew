@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("imagens/vecna01.png");
+    background-size: cover;
+    background-position: center center;
+}
+
+header section.welcome {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.principal2 {
+    font-variant: small-caps;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.384);
+    line-height: 35px;
+    width: 300px;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+
+

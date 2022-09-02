@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header { /*Começo do Header*/
+    background-color: black;
+    color: red;
+    height: 130px;
+    text-align: center;
+    height: 100vh;
+    background-image: url("imagens/background002.png") ;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header h1 {
+    padding: 1rem;
+    font-variant: small-caps;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1rem;
+    font-variant: small-caps;
+}
+
+header li:hover {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 8%;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+nav {   /*Fim do Header*/
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+
+
+/*Inicio do Main*/
+
+.welcomest h1 { /* Bem Vindo ao Mundo de ST */
+    text-align: center;
+    font-variant: small-caps;
+    padding: 1rem;
+}
+
+.introdução .mundo {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    text-decoration: none;
+    background-color: black;
+    color: red;
+    width: 400px;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.introdução img { /*Começo da Article 1 */
+    display: flex;
+    margin: auto;
+    border-radius: 2%;
+}
+
+.introdução h2 {
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.introdução p { /*Fim da Article 1*/
+    padding: 1rem;
+    text-indent: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-weight: bolder;
+}
+
+.article2 section { /* Começo da Article 2 */  
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.article2 a .q1 {     /* Logo das Temporadas - Fim da Article 2 */
+    background-color: black;
+    height: 200px;
+    width: 250px;
+    border-radius: 5%;
+}
+
+.temporadas {    /* Começo das Temporadas */
+    background-image: url("imagens/fundodatemporada1.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.temporadas h1 {
+    text-align: center;
+    font-variant: small-caps;
+    color: white;
+    padding: 1rem;
+}
+
+.temporadas p {
+    margin: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 0.404);
+    color: white;
+    padding: 1rem;
+    text-indent: 5%;
+}
+
+main .cenas {   /*Fim das Temporadas*/
+    display: flex;
+    justify-content: center;
+}
+
+main .iframe {  /* Iframe dos Videos */   
+    height: 400px;
+    width: 800px;
+    border-radius: 5%;
+    margin: 15px;
+}
+
+footer {
+    height: 15px;
+    background-color: black;
+    color: red;
+    padding: 0.5rem;
+    text-align: center;
+}
+ 
+
+
+
+
+
