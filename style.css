@@ -5,24 +5,29 @@
     padding: 0;
 }
 
-header { /*Começo do Header*/
+section.menu {      /*Sessão do Menu*/
     background-color: black;
     color: red;
-    height: 130px;
     text-align: center;
-    height: 100vh;
-    background-image: url("imagens/background002.png") ;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
+    display: block;
 }
 
-header h1 {
+.menu h1 {
     padding: 1rem;
     font-variant: small-caps;
 }
 
-header ul {
+#menu {     /*Icone do Menu*/
+    background-color: white;
+    display: block;
+    cursor: pointer;
+}
+
+#itens {
+    display: none;
+}
+
+.menu ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -30,7 +35,7 @@ header ul {
     font-variant: small-caps;
 }
 
-header li:hover {
+.menu li:hover {    /*Fim do Menu*/
     background-color: red;
     color: white;
     padding: 5px;
@@ -39,8 +44,13 @@ header li:hover {
     box-sizing: border-box;
 }
 
-nav {   /*Fim do Header*/
-    background-color: rgba(0, 0, 0, 0.808);
+header { /*Imagem de Fundo Inicial - Header*/
+    height: 100vh;
+    background-image: url("imagens/background002.png") ;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
 }
 
 

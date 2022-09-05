@@ -7,19 +7,27 @@
     <title>Stranger Things - Oficial</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon/icons8-stranger-things-512.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div>
-            <nav>
-            <h1>Stranger Things</h1>
+    <section class="menu">
+        
+    <h1>Stranger Things</h1>
+
+    <span class="material-icons" id="menu" onclick="clickMenu()">menu</span> <!--Icone do Menu-->
+
+        <menu id="itens">
             <ul>
                 <li>Home</li>
                 <li>Temporadas</li>
                 <li>Sobre Nós</li>
             </ul>
-            </nav>
-        </div>
+        </menu>
+
+    </section>
+
+    <header>
+        <!--1º Foto de Fundo-->
     </header>
 
     <main>
@@ -88,7 +96,16 @@
             </div>
         </section>
     </main>
-    
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }  else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
-<footer><em>Densenvolvido por <small>Bruno Ribeiro</small> para os fãs da série Stranger Things.</em></footer>
+<footer>
+<em>Densenvolvido por <small>Bruno Ribeiro</small> para os fãs da série Stranger Things.</em></footer>
 </html>
